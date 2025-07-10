@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix">
+            <a href="#" class="btn btn-rounded">Iniciar sesión</a>
+        </div>
+        <div class="showcase-content">
+            <h1>Películas, series y mucho más. Sin límites.</h1>
+            <p>Disfruta donde quieras. Cancela cuando quieras.</p>
+            <div class="search">
+                <input type="email" placeholder="Email">
+                <a href="#" class="btn btn-xl">
+                    Probar ahora <i class="fas fa-chevron-right btn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-door-open fa-3x"></i>
+                <p class="hide-sm">Cancela en cualquier momento</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                <i class="fas fa-tablet-alt fa-3x"></i>
+                <p class="hide-sm">Disfruta donde quieras</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                <i class="fas fa-tags fa-3x"></i>
+                <p class="hide-sm">Elige tu precio</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab Content 1 -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <p class="text-lg">
+                            Si decides que Netflix no es para ti, no hay problema. Sin compromisos.
+                            Cancela online cuando quieras.
+                        </p>
+                        <a href="#" class="btn btn-lg">Ver planes</a>
+                    </div>
+                    <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="">
+                </div>
+            </div>
+
+            <!-- Tab Content 2 -->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <p class="text-lg">
+                        Disfruta de series y películas en cualquier lugar y en cualquier momento,
+                        personalizado para ti.
+                    </p>
+                    <a href="#" class="btn btn-lg">Ver planes</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="">
+                        <p class="text-md">Disfruta en tu TV</p>
+                        <p class="text-dark">
+                            Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y más.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png" alt="">
+                        <p class="text-md">Descarga tus series para verlas offline</p>
+                        <p class="text-dark">
+                            Guarda tus favoritos fácilmente y siempre tendrás algo para ver.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" alt="">
+                        <p class="text-md">Disfruta donde quieras</p>
+                        <p class="text-dark">
+                            Películas y series ilimitadas en tu teléfono, tablet, ordenador y TV.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3 -->
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="text-center">
+                    <p class="text-lg">
+                        Elige un plan y disfruta de todo el contenido de Netflix.
+                    </p>
+                    <a href="#" class="btn btn-lg">Ver planes</a>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Básico</th>
+                            <th>Estándar</th>
+                            <th>Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Precio mensual</td>
+                            <td>$7.99</td>
+                            <td>$10.99</td>
+                            <td>$13.99</td>
+                        </tr>
+                        <tr>
+                            <td>Calidad</td>
+                            <td>Buena</td>
+                            <td>Mejor</td>
+                            <td>Óptima</td>
+                        </tr>
+                        <tr>
+                            <td>Resolución</td>
+                            <td>480p</td>
+                            <td>1080p</td>
+                            <td>4K+HDR</td>
+                        </tr>
+                        <tr>
+                            <td>Pantallas simultáneas</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <h2 class="carousel-title">Títulos populares</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="https://i.ibb.co/vXqDmnh/1.jpg" alt="Stranger Things">
+                <img src="https://i.ibb.co/QfGqdVX/2.jpg" alt="The Witcher">
+                <img src="https://i.ibb.co/dKjgw4n/3.jpg" alt="Money Heist">
+                <img src="https://i.ibb.co/0nYV7P1/4.jpg" alt="Dark">
+                <img src="https://i.ibb.co/8X4Y3Qy/5.jpg" alt="The Crown">
+                <img src="https://i.ibb.co/0jQh8Gy/6.jpg" alt="Peaky Blinders">
+                <img src="https://i.ibb.co/0nYV7P1/4.jpg" alt="Dark">
+                <img src="https://i.ibb.co/8X4Y3Qy/5.jpg" alt="The Crown">
+            </div>
+            <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>¿Preguntas? Llama al 900 000 000</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Relaciones con inversionistas</a></li>
+                <li><a href="#">Formas de ver</a></li>
+                <li><a href="#">Información corporativa</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="#">Empleo</a></li>
+                <li><a href="#">Términos de uso</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Cuenta</a></li>
+                <li><a href="#">Canjear tarjetas de regalo</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Prueba de velocidad</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Zona de prensa</a></li>
+                <li><a href="#">Comprar tarjetas de regalo</a></li>
+                <li><a href="#">Preferencias de cookies</a></li>
+                <li><a href="#">Avisos legales</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
